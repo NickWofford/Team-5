@@ -1,0 +1,32 @@
+---
+
+---
+
+\-\--
+title: "Course Project"
+author: "Team 5"
+date: "2023-02-10"
+output: html_document
+\-\--
+
+**Introduction**
+
+Data Summary
+
+Data Analytics
+
+Nick
+
+Jin
+
+Liuyi
+
+Conclusion
+
+Research Question 1
+
+Research Question 2
+
+Policy Recommendation
+
+Decision makers- marketing professionals : launching products in some areas; based on our research question, we could launch marketing campaigns targeted at certain racial groups or areas
