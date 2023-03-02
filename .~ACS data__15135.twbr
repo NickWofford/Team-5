@@ -6,6 +6,8 @@
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
     <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
     <MapboxVectorStylesAndLayers />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
@@ -4702,38 +4704,10 @@ Minority groups composition</run>
       </table>
       <simple-id uuid='{1256C1D3-349E-49E8-91A6-FFC3CDFB9D43}' />
     </worksheet>
-    <worksheet name='Sheet 17'>
+    <worksheet name='Sheet 18'>
       <table>
         <view>
-          <datasources>
-            <datasource caption='project.acs.cities' name='federated.0x57i0s0x6lk4l15pe1040bcbw8i' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0x57i0s0x6lk4l15pe1040bcbw8i'>
-            <column caption='SUM([Pop.Asian])+SUM([Pop.Black])+SUM([Pop.Hawai])+SUM([Pop.I...' datatype='real' name='[Calculation_1065030943137558537]' role='measure' type='quantitative' user:unnamed='Sheet 17'>
-              <calculation class='tableau' formula='SUM([pop.asian])+SUM([pop.black])+SUM([pop.hawai])+SUM([pop.indian])+SUM([pop.multi])+SUM([pop.other])/SUM([population])' />
-            </column>
-            <column caption='Bachelor' datatype='real' name='[bachelor]' role='measure' type='quantitative' />
-            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
-            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
-            <column caption='Pop.Asian' datatype='integer' name='[pop.asian]' role='measure' type='quantitative' />
-            <column caption='Pop.Black' datatype='integer' name='[pop.black]' role='measure' type='quantitative' />
-            <column caption='Pop.Hawai' datatype='integer' name='[pop.hawai]' role='measure' type='quantitative' />
-            <column caption='Pop.Indian' datatype='integer' name='[pop.indian]' role='measure' type='quantitative' />
-            <column caption='Pop.Multi' datatype='integer' name='[pop.multi]' role='measure' type='quantitative' />
-            <column caption='Pop.Other' datatype='integer' name='[pop.other]' role='measure' type='quantitative' />
-            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
-            <column-instance column='[Calculation_1065030943137558537]' derivation='User' name='[usr:Calculation_1065030943137558537:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[none:city:nk]'>
-            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
-              <groupfilter direction='DESC' expression='SUM([bachelor])' function='order' user:ui-marker='order'>
-                <groupfilter function='level-members' level='[none:city:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[none:city:nk]</column>
-          </slices>
+          <datasources />
           <aggregation value='true' />
         </view>
         <style />
@@ -4745,10 +4719,10 @@ Minority groups composition</run>
             <mark class='Automatic' />
           </pane>
         </panes>
-        <rows>[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[none:city:nk]</rows>
-        <cols>[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[usr:Calculation_1065030943137558537:qk]</cols>
+        <rows />
+        <cols />
       </table>
-      <simple-id uuid='{7BD7CE50-F08D-4695-8AD6-E434ED1B6F82}' />
+      <simple-id uuid='{243C87CB-2B7C-431E-9623-8DF04A75E47F}' />
     </worksheet>
     <worksheet name='Top10 Unemployment - education'>
       <table>
@@ -4826,7 +4800,47 @@ Minority groups composition</run>
       </table>
       <simple-id uuid='{4378D756-E16A-4A04-A452-99245C40B89C}' />
     </worksheet>
-    <worksheet name='Top10 diverse groups'>
+    <worksheet name='Top10 diverse cities'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='project.acs.cities' name='federated.0x57i0s0x6lk4l15pe1040bcbw8i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0x57i0s0x6lk4l15pe1040bcbw8i'>
+            <column caption='SUM([Pop.Asian])+SUM([Pop.Black])+SUM([Pop.Hawai])+SUM([Pop.I...' datatype='real' name='[Calculation_1065030943137558537]' role='measure' type='quantitative' user:unnamed='Sheet 17'>
+              <calculation class='tableau' formula='SUM([pop.asian])+SUM([pop.black])+SUM([pop.hawai])+SUM([pop.indian])+SUM([pop.multi])+SUM([pop.other])/SUM([population])' />
+            </column>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column caption='Pop.Asian' datatype='integer' name='[pop.asian]' role='measure' type='quantitative' />
+            <column caption='Pop.Black' datatype='integer' name='[pop.black]' role='measure' type='quantitative' />
+            <column caption='Pop.Hawai' datatype='integer' name='[pop.hawai]' role='measure' type='quantitative' />
+            <column caption='Pop.Indian' datatype='integer' name='[pop.indian]' role='measure' type='quantitative' />
+            <column caption='Pop.Multi' datatype='integer' name='[pop.multi]' role='measure' type='quantitative' />
+            <column caption='Pop.Other' datatype='integer' name='[pop.other]' role='measure' type='quantitative' />
+            <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1065030943137558537]' derivation='User' name='[usr:Calculation_1065030943137558537:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[none:city:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[usr:Calculation_1065030943137558537:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[none:city:nk]</rows>
+        <cols>[federated.0x57i0s0x6lk4l15pe1040bcbw8i].[usr:Calculation_1065030943137558537:qk]</cols>
+      </table>
+      <simple-id uuid='{7BD7CE50-F08D-4695-8AD6-E434ED1B6F82}' />
+    </worksheet>
+    <worksheet name='Top10 diverse counties'>
       <layout-options>
         <title>
           <formatted-text>
@@ -4854,6 +4868,9 @@ Minority groups composition</run>
             <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_1065031011799531527]' derivation='User' name='[usr:Calculation_1065031011799531527:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0xufhe419rwxdt16u09bt1q1r2jx].[none:county:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0xufhe419rwxdt16u09bt1q1r2jx].[usr:Calculation_1065031011799531527:qk]' shelf='rows' />
+          </shelf-sorts>
           <aggregation value='true' />
         </view>
         <style />
@@ -5352,6 +5369,32 @@ Minority groups composition</run>
       </devicelayouts>
       <simple-id uuid='{2828A976-BA42-4656-9085-A460912ABAA7}' />
     </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{AA913E57-492E-4AA6-8C01-727B68ED1885}' />
+    </dashboard>
   </dashboards>
   <windows source-height='72'>
     <window class='dashboard' name='Cities'>
@@ -5590,7 +5633,7 @@ Minority groups composition</run>
       </cards>
       <simple-id uuid='{384D067B-CD9F-4BB6-9596-85BAFC9CE74F}' />
     </window>
-    <window class='worksheet' name='Higest Avg. Income'>
+    <window class='worksheet' maximized='true' name='Higest Avg. Income'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -5805,7 +5848,7 @@ Minority groups composition</run>
       </cards>
       <simple-id uuid='{37DE729C-E9E1-4D85-8EB7-6D60004653CC}' />
     </window>
-    <window class='worksheet' maximized='true' name='Top10 diverse groups'>
+    <window class='worksheet' name='Top10 diverse counties'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -5828,7 +5871,12 @@ Minority groups composition</run>
       </cards>
       <simple-id uuid='{89838C97-6793-4FC7-B63A-388406185567}' />
     </window>
-    <window class='worksheet' name='Sheet 17'>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{84A979C0-64E1-4204-976C-1113EABCBDC1}' />
+    </window>
+    <window class='worksheet' name='Top10 diverse cities'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -5850,6 +5898,29 @@ Minority groups composition</run>
         </edge>
       </cards>
       <simple-id uuid='{870C580C-4EA4-418C-A47F-C773F4CF0D22}' />
+    </window>
+    <window class='worksheet' name='Sheet 18'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{18E3E58C-CC69-49D4-9239-A6D6C6635574}' />
     </window>
   </windows>
 </workbook>
