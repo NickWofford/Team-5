@@ -1,11 +1,3 @@
-
-<<<<<<< HEAD:README.md
-=======
-------------------------------------------------------------------------
-
---- title: "Course Project" author: "Team 5" date: "2023-02-10" output: html_document ---
->>>>>>> parent of 9acabe0 (Update and rename FinalProject.Rmd to README.md):FinalProject.Rmd
-
 ## **Introduction**
 
 The project is a market research based on the demographic and sales data in Iowa, for a liquor company who has a reputation to repair after some insensitive comments from an employee. They are seeking an emergency campaign strategy to accomplish this. The research questions are:
@@ -32,7 +24,7 @@ The dates of sales, for example, can be helpful for identifying trends in liquor
 
 Here I emphasized on exploring the ranking of different categories of liquor sold in each demographics. It's interesting to see the how sales pattern follow a similar pattern across different demographics.
 
-![](images/Screenshot%202023-03-01%20at%208.11.59%20PM.png "City Aggregated Sales")
+![](https://github.com/NickWofford/Team-5/raw/main/images/Screenshot%25202023-03-01%2520at%25208.11.59%2520PM.png)
 
 Here is the aggregated sales data from different cities within Iowa state. We see from the pie chart how Whisky and Vodka take up more than half the entire sales, with 61% of sales in total!
 
@@ -42,7 +34,7 @@ The city dynamic ranking on the left is a bit messy to look at, but one interest
 
 Next we could conduct a similar research using the county data instead. Below is a reprint of the results we have.
 
-![](images/Screenshot%202023-03-01%20at%208.14.34%20PM.png)
+![](https://github.com/NickWofford/Team-5/raw/main/images/Screenshot%25202023-03-01%2520at%25208.14.34%2520PM.png)
 
 Narrowing down the demographics scale to county doesn't change the fact that Whisky and Vodka are still two most popular categories. Again, pie chart and county ranking reflect many empirical evidence of liquor sales.
 
@@ -50,11 +42,29 @@ The county ranking dynamics seem comparatively neater than the city one, indicat
 
 Let's now take a look at the zip code data.
 
-![](images/Screenshot%202023-03-01%20at%208.15.32%20PM.png)
+![](https://github.com/NickWofford/Team-5/raw/main/images/Screenshot%25202023-03-01%2520at%25208.15.32%2520PM.png)
 
 Skipping the zip code ranking and pie chart which conform with the previous analysis on city and county, let's head straight into analyzing the ranking dynamics. Surprisingly the ranking dynamics didn't show an even neater pattern as we'd expected for a even narrower region. One possible explanation for this may be due to the fact that data relating to zip code is too detailed and detached, thus hard to follow a pattern out of it. Think of a county consisting of 15 zip codes, zip codes that are in older neighborhood or near campus would yield very different sales data among liquor categories, thus there hardly is any pattern in terms of zip code preference.
 
 ### Liuyi - ACS data
+
+For the ACS data, there are several aspects that need investigation: education, employment, income and race.
+
+The first dashboard is based on the '**city**' geographical variable. On the top right corner, there is a map reflecting both high school and college education distribution across whole Iowa state. To take a further look, we filtered the cities with top 10 unemployment rate, and display the education situations in these towns: the population with college degree is above and below 20%, but high school graduation rate is close to 90% for almost all cities. Compared with the top 10 cities with highest income, we observe that *the economic polarization in Iowa is severe:* there is no overlapping in the developed cities and cities with high unemployment rates.
+
+![](https://github.com/NickWofford/Team-5/raw/main/images/image-232995345.png)
+
+The lower row are 5 graphs showing the cities distribution with highest racial group. *Des Moines seems to has higher proportion of Asian and Black groups, while Hawaiians settle most at Dubuque and Indians prefer Sioux City.* White people, as the dominated racial group, distributed evenly in most cities.
+
+Based on the geographical variable "**county**", we looked at the total population distribution on the state map; the high school and college graduation rate among all the counties: with *Johnson, Story and Dallas as top 3 educated counties among Iowa*.
+
+Next, we analyzed the minority groups composition in the counties with highest population: *Polk is relatively more diverse than other counties, with more Asian, Black and Multiracial population*. This dashboard also includes a graph comparing the income and unemployment rate.
+
+![](https://github.com/NickWofford/Team-5/raw/main/images/image-680542992.png)Based on the "zipcode" variable, we focuses on the income distribution across the whole state with smaller administration district units - we can clearly see *there are three main economic centers, which are the Greater Polk area, Pottawattamie and Linn-Johnson area.* Within the top income zipcodes, we have analyzed the education and unemployment ranking as shown in the graph on the right.
+
+On the bottom, we have the minorities distribution within these rich zipcodes. *In 50323 and 50131, there are more Black, Asian and Multiracial groups population, although white people are still the absolute dominant groups even in these two areas*.
+
+![](https://github.com/NickWofford/Team-5/raw/main/images/image-874853021.png)
 
 ### Nick - Merged data
 
@@ -78,7 +88,7 @@ Are there any preference patterns for liquor consumption among different races? 
 
 ### Research Question 2
 
-![](images/Screenshot%202023-03-02%20at%208.42.54%20PM.png)
+![](https://github.com/NickWofford/Team-5/raw/main/images/image-2023244425.png)
 
 The graph above shows the sales ranking data for three demographics, each with 5 highest shares of minorities within the region.
 
