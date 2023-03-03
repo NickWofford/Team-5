@@ -20,7 +20,7 @@ There are two data sets used in this project: **liquor sales data** and the **Am
 
 The **American Community Survey data** is the "premier source for detailed population and housing information about our nation(USCB)", providing sufficient information for businesses, policy makers and government officials within a community. The variables in ACS data include the racial identity information of the population of Asian, White, Black, Hawai, Indian, Multiracial, others and the total population; the educational information, which are the population percentage of high school graduates and bachelor degree holders; The rate of unemployment is also provided for further analysis purposes.
 
-The **sales data** records the spirits purchase information of Iowa Class "E" liquor licensees by product and date of purchase from January 1, 2012 to current. Class E liquor license, for grocery stores, liquor stores, convenience stores, etc., allows commercial establishments to sell liquor for off-premises consumption in original unopened containers. The dataset includes data on the types of liquor, the quantities sold, the prices, the stores where the sales were made, and the dates of the sales; it can be used to analyze total spirits sales in Iowa of individual products at the store level.
+The **sales data** includes data on the types of liquor, the quantities sold, the prices, the stores where the sales were made, and the dates of the sales.
 
 The dates of sales, for example, can be helpful for identifying trends in liquor sales over time. What's more, it also reveals certain seasonal variations or other fluctuations that could rich our analysis. Data on different types of liquor and stores, on the other hand, is useful for identifying patterns in sales based on location or product type.
 
@@ -90,17 +90,9 @@ Are there any preference patterns for liquor consumption among different races?
 
 ### Research Question 2
 
-<<<<<<< HEAD
 What are most popular liquor categories among geographies with highest share of minorities?
 
 ![](images/image-641333537.png)
-=======
-![](images/Screenshot%202023-03-02%20at%208.42.54%20PM.png)
-
-The graph above shows the sales ranking data for three demographics, each with 5 highest shares of minorities within the region.
-
-From the graph we can see that despite the shares of minorities within each region, the most popular liquor categories are always Vodka, Whisky, and Rum, in a descending order. There is, however, only one exception within zip code 50703 where the most popular liquor categories are Vodka, Whisky, and Brandy (instead of Rum).
->>>>>>> 772f0c0797926b77f1b49306df213742941e282f
 
 ## Policy Recommendation
 
