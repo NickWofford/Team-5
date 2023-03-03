@@ -1,9 +1,3 @@
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
---- title: "Course Project" author: "Team 5" date: "2023-02-10" output: html_document ---
-
 ## **Introduction**
 
 The project is a market research based on the demographic and sales data in Iowa, for a liquor company who has a PR crisis for racism speech of an employee, thriving for an emergency campaign strategy to save their reputation, targeting at minorities audience. The research questions are:
