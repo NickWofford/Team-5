@@ -20,7 +20,7 @@ There are two data sets used in this project: **liquor sales data** and the **Am
 
 The **American Community Survey data** is the "premier source for detailed population and housing information about our nation(USCB)", providing sufficient information for businesses, policy makers and government officials within a community. The variables in ACS data include the racial identity information of the population of Asian, White, Black, Hawai, Indian, Multiracial, others and the total population; the educational information, which are the population percentage of high school graduates and bachelor degree holders; The rate of unemployment is also provided for further analysis purposes.
 
-The **sales data** includes data on the types of liquor, the quantities sold, the prices, the stores where the sales were made, and the dates of the sales.
+The **sales data** records the spirits purchase information of Iowa Class "E" liquor licensees by product and date of purchase from January 1, 2012 to current. Class E liquor license, for grocery stores, liquor stores, convenience stores, etc., allows commercial establishments to sell liquor for off-premises consumption in original unopened containers. The dataset includes data on the types of liquor, the quantities sold, the prices, the stores where the sales were made, and the dates of the sales; it can be used to analyze total spirits sales in Iowa of individual products at the store level.
 
 The dates of sales, for example, can be helpful for identifying trends in liquor sales over time. What's more, it also reveals certain seasonal variations or other fluctuations that could rich our analysis. Data on different types of liquor and stores, on the other hand, is useful for identifying patterns in sales based on location or product type.
 
@@ -74,15 +74,17 @@ On the bottom, we have the minorities distribution within these rich zipcodes. *
 
 ![](images/image-874853021.png)
 
+### Nick - Merged data
+
+## Conclusion
+
+ACS data:
+
 *In conclusion,* the economic status and race balance is very polarized in Iowa state, with white people as the absolute dominant racial groups in most of the areas.
 
 There are three main *economic* centers, which are the Greater Polk area, Pottawattamie and Linn-Johnson area. Johnson, Story and Dallas as top 3 educated counties among Iowa.
 
 Des Moines has higher proportion of Asian and Black groups, while Hawaiians settle most at Dubuque and Indians prefer Sioux City. In 50323 and 50131, there are more Black, Asian and Multiracial groups population. Polk is relatively more diverse than other counties, with more Asian, Black and Multiracial population.
-
-### Nick - Merged data
-
-## Conclusion
 
 ### Research Question 1
 
@@ -94,6 +96,12 @@ What are most popular liquor categories among geographies with highest share of 
 
 ![](images/image-641333537.png)
 
+![](images/image-2023244425.png)
+
+The graph above shows the sales ranking data for three demographics, each with 5 highest shares of minorities within the region.
+
+From the graph we can see that despite the shares of minorities within each region, the most popular liquor categories are always Vodka, Whisky, and Rum, in a descending order. There is, however, only one exception within zip code 50703 where the most popular liquor categories are Vodka, Whisky, and Brandy (instead of Rum).
+
 ## Policy Recommendation
 
 1.  As white people as the dominant racial groups in most Iowa areas, the effect of this PR crisis in Iowa is moderate comparing to other states which are more diverse.
@@ -103,4 +111,4 @@ What are most popular liquor categories among geographies with highest share of 
     2.  Johnson, Story and Dallas counties, as they are the top 3 educated counties among Iowa, which could be more liberal than other counties;
 
     3.  Des Moines, Dubuque and Sioux cities as they have the highest minority population proportions;
-3.  When looking at these areas, pay more attention to the XXX and XXX series products, as XXX is their favorite liquor categories.
+3.  When looking at these areas, pay more attention to the Vodka, Whiskey and Rum series products, as these are the favorite liquor categories.
