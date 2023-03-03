@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------------------
 
---- title: "Course Project" author: "Team 5" date: "2023-02-10" output: html_document ---
+--- title: "Course Project" author: "Team 5" date: "2023-02-10" output: md_document ---
 
 ## **Introduction**
 
