@@ -1,18 +1,23 @@
 ## **Introduction**
 
+
 The project is a market research based on the demographic and sales data in Iowa, for a liquor company who has a reputation to repair after some insensitive comments from an employee. They are seeking an emergency campaign strategy to accomplish this. The research questions are:
 
 1.  Are there any preference patterns for liquor consumption among different races?
 
 2.  What are most popular liquor categories among geographies with highest share of minorities?
 
+
 The market information in the analysis would be used to establish and design the specific marketing strategies of this PR campaign in a way that makes it clear that their company understands their diverse customer base. Data analytics in this project will be crucial to the company's reputation, stock price and their reputation.
+
 
 ## Data Summary
 
 There are two data sets used in this project: **liquor sales data** and the **American Community Survey data** based on different geography variables - zipcode, city and county.
 
+
 The **American Community Survey data** is the "premier source for detailed population and housing information about our nation(USCB)", providing sufficient information for businesses, policy makers and government officials within a community. The variables in ACS data include the racial identity information of the population of Asian, White, Black, Hawaiian, Indian, Multiracial, and people who identify otherwise, and the total population; the educational information, which are the population percentage of high school graduates and bachelor degree holders; The rate of unemployment is also provided for further analysis purposes.
+
 
 The **sales data** records the spirits purchase information of Iowa Class "E" liquor licensees by product and date of purchase from January 1, 2012 to current. Class E liquor license, for grocery stores, liquor stores, convenience stores, etc., allows commercial establishments to sell liquor for off-premises consumption in original unopened containers. The dataset includes data on the types of liquor, the quantities sold, the prices, the stores where the sales were made, and the dates of the sales; it can be used to analyze total spirits sales in Iowa of individual products at the store level.
 
@@ -24,7 +29,9 @@ The dates of sales, for example, can be helpful for identifying trends in liquor
 
 Here I emphasized on exploring the ranking of different categories of liquor sold in each demographics. It's interesting to see the how sales pattern follow a similar pattern across different demographics.
 
+
 ![](images/image-985142942.png)
+
 
 Here is the aggregated sales data from different cities within Iowa state. We see from the pie chart how Whisky and Vodka take up more than half the entire sales, with 61% of sales in total!
 
@@ -34,7 +41,9 @@ The city dynamic ranking on the left is a bit messy to look at, but one interest
 
 Next we could conduct a similar research using the county data instead. Below is a reprint of the results we have.
 
+
 ![](images/image-1495754117.png)
+
 
 Narrowing down the demographics scale to county doesn't change the fact that Whisky and Vodka are still two most popular categories. Again, pie chart and county ranking reflect many empirical evidence of liquor sales.
 
@@ -42,7 +51,9 @@ The county ranking dynamics seem comparatively neater than the city one, indicat
 
 Let's now take a look at the zip code data.
 
+
 ![](images/image-809619879.png)
+
 
 Skipping the zip code ranking and pie chart which conform with the previous analysis on city and county, let's head straight into analyzing the ranking dynamics. Surprisingly the ranking dynamics didn't show an even neater pattern as we'd expected for a even narrower region. One possible explanation for this may be due to the fact that data relating to zip code is too detailed and detached, thus hard to follow a pattern out of it. Think of a county consisting of 15 zip codes, zip codes that are in older neighborhood or near campus would yield very different sales data among liquor categories, thus there hardly is any pattern in terms of zip code preference.
 
@@ -50,9 +61,11 @@ Skipping the zip code ranking and pie chart which conform with the previous anal
 
 For the ACS data, there are several aspects that need investigation: education, employment, income and race.
 
+
 The first dashboard is based on the '**city**' geographical variable. On the top right corner, there is a map reflecting both high school and college education distribution across whole Iowa state. To take a further look, we filtered the cities with top 10 unemployment rate, and display the education situations in these towns: the population with college degree is above and below 20%, but high school graduation rate is close to 90% for almost all cities. Compared with the top 10 cities with highest income, we observe that *the economic polarization in Iowa is severe:* there is no overlapping in the developed cities and cities with high unemployment rates.
 
 ![](https://github.com/NickWofford/Team-5/raw/main/images/image-232995345.png)
+
 
 The lower row are 5 graphs showing the cities distribution with highest racial group. *Des Moines seems to has higher proportion of Asian and Black groups, while Hawaiians settle most at Dubuque and Indians prefer Sioux City.* White people, as the dominated racial group, distributed evenly in most cities.
 
@@ -90,6 +103,7 @@ Are there any preference patterns for liquor consumption among different races? 
 
 ![](https://github.com/NickWofford/Team-5/raw/main/images/image-2023244425.png)
 
+
 The graph above shows the sales ranking data for three demographics, each with 5 highest shares of minorities within the region.
 
 From the graph we can see that despite the shares of minorities within each region, the most popular liquor categories are always Vodka, Whisky, and Rum, in a descending order. There is, however, only one exception within zip code 50703 where the most popular liquor categories are Vodka, Whisky, and Brandy (instead of Rum).
@@ -97,3 +111,4 @@ From the graph we can see that despite the shares of minorities within each regi
 ## Policy Recommendation
 
 It is our recommendation to center the company's brand on the universal nature of its products. People from diverse backgrounds (race, rural/urban) all share similar preferences for which liquor products they choose to purchase, and the company celebrates this common ground. It is not their view that this recent incident reflects a staff-wide sentiment. A new product (in one of the three top categories of liquor) would be well-received among all demographics and could revitalize the company's brand while also making their customers feel welcome when enjoying their products.
+
